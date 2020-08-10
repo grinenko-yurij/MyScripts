@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter {SamAccountName -like "*"}| Export-Csv -path C:\client_name.csv -NoTypeInformation
